@@ -1,0 +1,19 @@
+/**
+ * @license
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+export default function App() {
+  return (
+    <div className="min-h-screen bg-white flex flex-col items-center">
+      <div className="w-full max-w-none">
+        <img
+          src="/barangay culiat.png"
+          alt="Barangay Culiat Information"
+          className="w-full h-auto block"
+          referrerPolicy="no-referrer"
+        />
+      </div>
+    </div>
+  );
+}
